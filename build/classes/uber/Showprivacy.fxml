@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="615.0" prefWidth="778.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uber.ShowprivacyController">
+   <children>
+      <TextArea fx:id="araetext3" layoutX="36.0" layoutY="34.0" prefHeight="480.0" prefWidth="704.0" />
+      <Button layoutX="42.0" layoutY="547.0" mnemonicParsing="false" onAction="#close3" text="back" />
+      <Button layoutX="669.0" layoutY="553.0" mnemonicParsing="false" onAction="#load3" text="load" />
+   </children>
+</AnchorPane>
